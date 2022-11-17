@@ -19,7 +19,7 @@ input{
 }
 .main-border{
     margin-top: 100px;
-    width: 250px;
+    max-width: 250px;
     margin-bottom: 20%;
     padding: 50px;
     border: 2px solid white;
