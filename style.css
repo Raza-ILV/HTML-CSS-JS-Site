@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #031321;
+    font-family:fantasy;
+}
+input{
+    background: none;
+    border:  none;
+    box-shadow: none;
+    border-bottom: 2px solid white;
+    height: 32px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+.main-border{
+    margin-top: 100px;
+    margin-bottom: 20%;
+    padding: 50px;
+    border: 2px solid white;
+    border-radius: 15px;
+    display: block;
+}
+button {
+    border: 1px solid white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: large;
+    color: #2196f3;
+    background: #031321;
+    text-decoration: none;
+    font-family: fantasy;
+    overflow: hidden;
+    transition: .3s;
+}
+button:hover{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 30px #2196f3;
+}
+.main-border .first { 
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-border .second {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-border .third {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-border .fourth {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-border">
+        <input type="number" placeholder="0" id="input" readonly>
+        <div class="first">
+            <Button id="one" onclick="setInputValue(1)">1</Button>
+            <Button id="two" onclick="setInputValue(2)">2</Button>
+            <Button id="three" onclick="setInputValue(3)">3</Button>
+            <Button id="add" onclick="add()">+</Button>
+        </div>
+        <div class="second">
+            <Button id="four" onclick="setInputValue(4)">4</Button>
+            <Button id="five" onclick="setInputValue(5)">5</Button>
+            <Button id="six" onclick="setInputValue(6)">6</Button>
+            <Button id="subtract" onclick="subtract()">-</Button>
+        </div>
+        <div class="third">
+            <Button id="seven" onclick="setInputValue(7)">7</Button>
+            <Button id="eight" onclick="setInputValue(8)">8</Button>
+            <Button id="nine" onclick="setInputValue(9)">9</Button>
+            <Button id="multiply"  onclick="multiply()">x</Button>
+        </div>
+        <div class="fourth">
+            <Button id="clearAll" onclick="clearAll()">D</Button>
+            <Button id="clearOne" onclick="clearOne()">C</Button>
+            <Button id="equals" onclick="getInputValue()">=</Button>
+            <Button id="divide"  onclick="divide()">/</Button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
