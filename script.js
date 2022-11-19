@@ -33,16 +33,6 @@ function setInputValue(a) {
     elem.value += Number(a)
 }
 
-
-//DELETE ONE
-function clearOne() {
-    const elem = document.getElementById("input")
-    elem.value = Number(String(elem.value).slice(0, -1))
-    if(elem.value == 0) {
-        elem.value = ""
-    }
-}
-
 //DELETE ALL
 function clearAll() {
     const elem = document.getElementById("input")
