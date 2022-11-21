@@ -39,10 +39,26 @@ button {
     overflow: hidden;
     transition: .3s;
 }
+.functionalBTN {
+    color: yellow;
+}
+.clearBTN {
+    color: red;
+}
 button:hover{
     color: #255784;
     background: #2196f3;
     box-shadow: 0 0 30px #2196f3;
+}
+.functionalBTN:hover {
+    color: #9CA640;
+    background: yellow;
+    box-shadow: 0 0 20px yellow;
+}
+.clearBTN:hover {
+    color: #953232;
+    background: red;
+    box-shadow: 0 0 50px red;
 }
 .main-border .first { 
     margin-top: 10px;
